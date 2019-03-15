@@ -1,0 +1,6 @@
+:host ::ng-deep .main-footer {
+    color: #ffffff;
+    padding: 25px 0;
+    background: #010423;
+    text-align: center;
+  }
