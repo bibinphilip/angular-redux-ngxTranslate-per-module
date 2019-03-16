@@ -33,7 +33,7 @@ Lazy Load Modules: AboutMeModule --> AboutMeComponent
 *3. reduxStore folder*: Implementation for language change dropdown using store, so that this information can be passed to other components.
 
 
-*4. shared folder*: Contains classes that retrieve common words (like About me/My Skills for respective page header text) for the selected language from home.xx.json files
+*4. shared folder*: Contains TranslateCommon directive that retrieve common words (like About me/My Skills for respective page header text) for the selected language from home.xx.json files (this file contains all the common words that can be used in subsequent pages)
 
 ## Reference Links
 Thanks to [Fabien](https://medium.com/@TuiZ/how-to-split-your-i18n-file-per-lazy-loaded-module-with-ngx-translate-3caef57a738f) and [Lukas Marx](https://malcoded.com/posts/angular-ngrx-guide) for their articles.
